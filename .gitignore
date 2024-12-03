@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Input and Output directories
+input_images/*
+upscaled_images/*
+
+# Keep the directories but ignore contents
+!input_images/.gitkeep
+!upscaled_images/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
